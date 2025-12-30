@@ -18,7 +18,15 @@ const Navbar = () => {
           <a href="#skills">Skills</a>
           <a href="#projects">Projects</a>
           <a href="#contact">Contact</a>
-
+          {/* RESUME BUTTON */}
+          <a
+            href="/resume/Sateesh_Naik_Resume.pdf"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="resume-nav-btn"
+          >
+            Resume
+          </a>
 
 
 
@@ -29,4 +37,5 @@ const Navbar = () => {
 };
 
 export default Navbar;
+
 

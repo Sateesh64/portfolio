@@ -78,7 +78,6 @@
     gap: 18px;
   }
 }
-
 .nav-logo {
   color: #ffffff;              /* clear white */
   font-weight: 600;
@@ -89,4 +88,19 @@
 
 .nav-logo:hover {
   color: #9eff00;              /* neon green on hover */
+}
+
+.resume-nav-btn {
+  color: #0a0f1f;
+
+  border-radius: 8px;
+  font-size: 13px;
+  font-weight: 600;
+  text-decoration: none;
+
+  transition: background 0.2s ease, transform 0.2s ease;
+}
+
+.resume-nav-btn:hover {
+  transform: translateY(-1px);
 }

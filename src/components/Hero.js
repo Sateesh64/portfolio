@@ -41,7 +41,6 @@ const Hero = () => {
 
             I am actively seeking Frontend Developer or Full Stack Developer opportunities where I can contribute to building impactful products while continuously enhancing my technical skills.
           </p>
-
           <div className="hero-points">
             <p>⚡ Frontend & MERN Developer</p>
             <p>🎨 Clean UI & UX Focus</p>
