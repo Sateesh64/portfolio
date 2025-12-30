@@ -219,6 +219,29 @@ body {
   }
 }
 
+@media (max-width: 768px) {
+  .hero-section {
+    min-height: auto;
+    padding-top: 100px;
+    text-align: center;
+  }
+
+  .hero-content {
+    align-items: center;
+  }
+
+  .hero-title {
+    font-size: 28px;
+  }
+
+  .hero-subtitle {
+    font-size: 14px;
+  }
+
+  .resume-btn {
+    margin-top: 16px;
+  }
+}
 
 
 

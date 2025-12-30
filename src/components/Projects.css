@@ -92,3 +92,19 @@
     font-size: 26px;
   }
 }
+
+@media (max-width: 768px) {
+  .projects-grid {
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+
+  .project-card {
+    padding: 20px;
+  }
+
+  .project-actions {
+    flex-direction: column;
+    gap: 10px;
+  }
+}

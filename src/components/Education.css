@@ -86,16 +86,21 @@
 
 /* MOBILE */
 @media (max-width: 768px) {
-  .education {
-    padding: 100px 20px 120px;
+  .education-card {
+    padding: 20px;
   }
 
   .education-header {
     flex-direction: column;
     align-items: flex-start;
-    gap: 12px;
+    gap: 6px;
+  }
+
+  .education-badge {
+    align-self: flex-start;
   }
 }
+
 
 .education-card {
   background: rgba(158, 255, 0, 0.08);

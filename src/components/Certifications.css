@@ -87,3 +87,13 @@
   background: #9eff00;
   color: #0a0f1f;
 }
+
+@media (max-width: 768px) {
+  .cert-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .cert-card {
+    padding: 18px;
+  }
+}
