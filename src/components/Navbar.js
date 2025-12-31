@@ -26,15 +26,16 @@ const Navbar = () => {
           <a href="#projects" onClick={() => setOpen(false)}>Projects</a>
           <a href="#contact" onClick={() => setOpen(false)}>Contact</a>
 
-          {/* RESUME */}
-          <a
-            href="/resume/Sateesh_Naik_Resume.pdf"
+         {/* RESUME */}
+           <a
+            href="/portfolio/resume/Sateesh_Naik_Resume.pdf"
             target="_blank"
             rel="noopener noreferrer"
             className="resume-nav-btn"
-          >
-            Resume
-          </a>
+            >
+              Resume
+              </a>
+
         </div>
       </div>
     </nav>
