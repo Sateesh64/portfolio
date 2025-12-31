@@ -82,13 +82,13 @@ body {
   gap: 24px; 
                  /* space between image & buttons */
 }
-
 @media (max-width: 768px) {
   .hero-left {
     margin-top: 24px;
   }
 }
  
+
 .hero-image-wrapper {
   width: 260px;
   height: 260px;
