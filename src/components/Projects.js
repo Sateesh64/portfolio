@@ -22,7 +22,7 @@ const Projects = () => {
 
           <div className="project-actions">
             <a
-              href="https://shimmering-profiterole-194264.netlify.app"
+              href="https://sateesh64.github.io/ai-productivity-hub/"
               target="_blank"
               rel="noopener noreferrer"
               className="btn-outline"
