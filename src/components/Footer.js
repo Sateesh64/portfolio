@@ -14,13 +14,16 @@ const Footer = () => {
 
   return (
     <footer className="footer">
-      <p>© {new Date().getFullYear()} Sateesh Naik. All rights reserved.</p>
+      <div className="footer-container">
+        <p>© {new Date().getFullYear()} Sateesh Naik. All rights reserved.</p>
 
-      <div className="visitor-badge">
-        👥 Visitors: {visitors}
+        <div className="visitor-badge">
+          👥 Visitors: {visitors}
+        </div>
       </div>
     </footer>
   );
 };
 
 export default Footer;
+

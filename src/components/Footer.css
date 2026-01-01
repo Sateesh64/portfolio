@@ -1,52 +1,38 @@
 .footer {
   width: 100%;
-  padding: 18px 16px;
-  text-align: center;
-
-  background: rgba(0, 0, 0, 0.35);
-  border-top: 1px solid rgba(158, 255, 0, 0.2);
-
-  color: #cbd5f5;
-  font-size: 13px;
-  letter-spacing: 0.4px;
+  background: linear-gradient(180deg, #050510, #000000);
+  padding: 14px 0;
 }
 
-.footer p {
-  margin: 0;
-}
+.footer-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 16px;
 
-.footer {
-  width: 100%;
-  padding: 18px 16px;
-  text-align: center;
-  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 
-  background: rgba(0, 0, 0, 0.35);
-  border-top: 1px solid rgba(158, 255, 0, 0.2);
-
-  color: #cbd5f5;
+  color: #9ca3af;
   font-size: 13px;
 }
 
 /* Visitor badge */
 .visitor-badge {
-  position: absolute;
-  right: 20px;
-  bottom: 16px;
-
-  background: rgba(158, 255, 0, 0.15);
-  border: 1px solid rgba(158, 255, 0, 0.4);
-  padding: 6px 14px;
-  border-radius: 20px;
-
+  background: #0f172a;
+  border: 1px solid #22c55e;
+  color: #22c55e;
+  padding: 4px 12px;
+  border-radius: 999px;
   font-size: 12px;
-  color: #9eff00;
+  white-space: nowrap;
 }
 
-@media (max-width: 768px) {
-  .footer {
-    font-size: 12px;
-    padding: 16px;
+/* 🔹 Mobile Fix */
+@media (max-width: 600px) {
+  .footer-container {
+    flex-direction: column;
+    gap: 8px;
     text-align: center;
   }
 }
